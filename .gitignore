@@ -1,11 +1,11 @@
 # Compiled nonsense that does not belong in *source* control
-/build
-/bin
-/.gradle
-/minecraft
-/out
-/run
-/classes
+build/
+bin/
+.gradle/
+minecraft/
+out/
+run/
+classes/
 
 # IDE nonsense that could go in source control but really shouldn't
 .classpath
@@ -14,7 +14,7 @@
 .settings
 *.launch
 *.iml
-.idea
+.idea/
 *.ipr
 *.iws
 
