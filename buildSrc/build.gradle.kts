@@ -7,14 +7,13 @@ plugins {
 repositories {
     jcenter()
     mavenCentral()
-    maven(url="http://maven.modmuss50.me/") {
+    maven(url="https://maven.fabricmc.net") {
         name = "Fabric"
     }
 }
 
 dependencies {
     compile( group = "net.fabricmc", name = "fabric-loom", version = "0.2.1-SNAPSHOT")
-//    compile(group = "com.squareup", name = "kotlinpoet", version = "1.0.0-RC1")
 }
 
 configure<GradlePluginDevelopmentExtension> {

@@ -27,6 +27,10 @@ open class GryphonPlugin : Plugin<Project> {
             pluginManager.apply("org.gradle.eclipse")
             pluginManager.apply("fabric-loom")
 
+            dependencies {
+                add("annotationProcessor", "net.fabricmc:fabric-loom:0.2.1-SNAPSHOT")
+            }
+
             extensions.configure<JavaPluginExtension> {
                 sourceCompatibility = JavaVersion.VERSION_1_8
                 targetCompatibility = JavaVersion.VERSION_1_8
